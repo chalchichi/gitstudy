@@ -10,4 +10,10 @@ public class controller2 {
     {
         return 1;
     }
+
+    @GetMapping("/hello2")
+    public int hello2()
+    {
+        return 2;
+    }
 }
