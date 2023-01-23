@@ -11,8 +11,8 @@ public class controller2 {
         return 1;
     }
 
-    @GetMapping("/hello3")
-    public int hello3()
+    @GetMapping("/hello5")
+    public int hello5()
     {
         return 3;
     }
