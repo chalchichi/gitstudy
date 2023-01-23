@@ -28,4 +28,10 @@ public class controller2 {
     {
         return 2;
     }
+
+    @GetMapping("/hello6")
+    public String hello6()
+    {
+        return "5";
+    }
 }
