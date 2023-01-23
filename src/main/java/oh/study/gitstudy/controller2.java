@@ -16,4 +16,10 @@ public class controller2 {
     {
         return 2;
     }
+
+    @GetMapping("/hello4")
+    public int hello4()
+    {
+        return 2;
+    }
 }
